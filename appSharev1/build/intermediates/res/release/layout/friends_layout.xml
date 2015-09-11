@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr = "http://schemas.android.com/apk/res-auto"
+        android:id="@+id/friends_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        ptr:ptrDrawable="@drawable/default_ptr_rotate"  
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrMode="both"  >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</RelativeLayout><!-- From: file:/E:/安卓学习/源码/AppShare%20v1.3/appSharev1/src/main/res/layout/friends_layout.xml -->

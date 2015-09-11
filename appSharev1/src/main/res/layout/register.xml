@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_accout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="注册账户:"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/account_value"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/account"
+            android:layout_toRightOf="@+id/account"
+            android:background="@drawable/shape"
+            android:digits="0123456789abcdefghigklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/account_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/account_value"
+            android:layout_below="@+id/account_value"
+            android:text="由字母或数字组成，长度不超过20"
+            android:textColor="@color/gray"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_password1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/layout_accout" >
+
+        <TextView
+            android:id="@+id/password1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="注册密码:"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/password_value1"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/password1"
+            android:layout_toRightOf="@+id/password1"
+            android:background="@drawable/shape"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/password1_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password_value1"
+            android:layout_below="@+id/password_value1"
+            android:text="由字母或数字组成，长度不超过15"
+            android:textColor="@color/gray"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_password2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/layout_password1" >
+
+        <TextView
+            android:id="@+id/password2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="确认密码:"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/password_value2"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/password2"
+            android:layout_toRightOf="@+id/password2"
+            android:background="@drawable/shape"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/password2_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password_value2"
+            android:layout_below="@+id/password_value2"
+            android:text="再一次输入密码"
+            android:textColor="@color/gray"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_phone"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/layout_password2" >
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="手机号码:"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/phone_value"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/phone"
+            android:layout_toRightOf="@+id/phone"
+            android:background="@drawable/shape"
+            android:hint="请输入手机号码"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/phone_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phone"
+            android:layout_below="@+id/phone"
+            android:textColor="@color/gray"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/register_ok"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/layout_phone"
+        android:layout_below="@+id/layout_phone"
+        android:background="@drawable/orange_button"
+        android:text="注册" />
+
+    <Button
+        android:id="@+id/register_cancel"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/layout_phone"
+        android:layout_below="@+id/layout_phone"
+        android:background="@drawable/orange_button"
+        android:text="取消" />
+
+</RelativeLayout>

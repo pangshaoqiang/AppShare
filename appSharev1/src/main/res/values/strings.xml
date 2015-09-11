@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">应用分享</string>
+    <string name="action_settings">setting</string>
+    <string name="left_drawer_item_offline">离线</string>
+    <string name="left_drawer_item_favorite">收藏</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="server_ip">http://120.26.51.216</string>
+    <string name="login_fault">登陆失败</string>
+    <string name="LAcue1">用户帐号长度至少3个字符</string>
+    <string name="LAcue2">用户帐号长度最长不超过20个字符</string>
+    <string name="LAcue3">用户帐号可用</string>
+    <string name="LAcue4">该用户已存在</string>
+    <string name="LAcue5">密码长度至少3个字符</string>
+    <string name="LAcue6">密码长度最长不超过20个字符</string>
+    <string name="LAcue7">密码可用</string>
+    <string name="LAcue8">两次输入的密码一致</string>
+    <string name="LAcue9">两次输入的密码不一致，请重新输入</string>
+    <string name="LAcue10">注册成功</string>
+    <string name="Share">是否分享此应用</string>
+    <string name="Sure">确定</string>
+    <string name="Cancel">取消</string>
+    <string name="ShareSucc">发布成功</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="newname">请输入新的昵称</string>
+    <string name="updatesucc">修改成功</string>
+    <string name="sexset">修改性别</string>
+    <string name="newsign">请输入新的个性签名</string>
+    <string name="reflash">下拉刷新...</string>
+    <string name="reflashing">正在刷新...</string>
+    <string name="reflashend">放开刷新...</string>
+    <string name="load">上拉加载更多...</string>
+    <string name="loading">正在加载...</string>
+    <string name="loadend">放开加载...</string>
+    <string name="out">再按一次推出</string>
+    <string name="col">收藏成功</string>
+    <string name="dlike">点赞成功</string>
+    <string name="cmt">评论成功</string>
+    <string name="ref">刷新成功</string>
+    <string name="coldef">您之前已收藏过此应用分享</string>
+</resources>

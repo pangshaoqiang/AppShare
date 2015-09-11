@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\eclipse\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\安卓学习\源码\AppShare v1.3\appSharev1\build\intermediates\pre-dexed\debug\support-v4-18.0.0-9c7c05a71dbab84a4c43e3081cdb8cf24014857d.jar" />
+    </item>
+    <item
+        jar="E:\安卓学习\源码\AppShare v1.3\appSharev1\build\intermediates\exploded-aar\AppShare v1.3\library_PulltoRefresh\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="98b8897619637a5e596fe85cdf184263c2e96f5a">
+        <dex dex="E:\安卓学习\源码\AppShare v1.3\appSharev1\build\intermediates\pre-dexed\debug\classes-1a1a11a11dd94a1bbf4c919f2cbd6e9166fcdffc.jar" />
+    </item>
+    <item
+        jar="E:\安卓学习\源码\AppShare v1.3\appSharev1\build\intermediates\exploded-aar\AppShare v1.3\library_SlidingMenu\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="240b49a4931df47dc5fbb2dadcd495081238f8aa">
+        <dex dex="E:\安卓学习\源码\AppShare v1.3\appSharev1\build\intermediates\pre-dexed\debug\classes-bd5250562a920a45518fff760314e188ea85999e.jar" />
+    </item>
+
+</items>

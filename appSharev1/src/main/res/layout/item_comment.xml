@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+
+   >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+    >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+
+            android:background="#696969" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.appshare.RoundImageView
+                android:id="@+id/commenter_head"
+                android:layout_width="12sp"
+                android:layout_height="12sp"
+                android:layout_gravity="start"
+                android:background="@drawable/bg_head"
+                android:padding="2.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_round_head" />
+        <TextView
+            android:id="@+id/commenter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:layout_toEndOf="@id/commenter_head"
+            android:layout_toRightOf="@id/commenter_head"
+            android:text="张三"
+            android:textSize="12.0sp"/>
+         </RelativeLayout>
+
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="188752145"
+            android:textSize="8.0sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+>
+        <TextView
+            android:id="@+id/comment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:singleLine="true"
+            android:text="2015-5-01 17:45"
+            android:textColor="@color/black"
+            android:gravity="end"
+            android:textSize="8.0sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#696969" />
+</LinearLayout>

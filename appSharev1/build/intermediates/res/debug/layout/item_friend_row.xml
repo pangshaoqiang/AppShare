@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80.0dip" >
+
+    <ImageView
+        android:id="@+id/person_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="4.0dip"
+        android:src="@drawable/default_round_head" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/person_icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/person_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="张三"
+            android:textSize="18.0sp" />
+
+        <TextView
+            android:id="@+id/person_telephone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="188752145"
+            android:textSize="18.0sp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="#696969" />
+</RelativeLayout>
+<!-- From: file:/E:/安卓学习/源码/AppShare%20v1.3/appSharev1/src/main/res/layout/item_friend_row.xml -->

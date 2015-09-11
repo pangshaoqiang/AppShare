@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AppShare v1.3.iml" filepath="$PROJECT_DIR$/AppShare v1.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appSharev1/appSharev1.iml" filepath="$PROJECT_DIR$/appSharev1/appSharev1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_PulltoRefresh/library_PulltoRefresh.iml" filepath="$PROJECT_DIR$/library_PulltoRefresh/library_PulltoRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_SlidingMenu/library_SlidingMenu.iml" filepath="$PROJECT_DIR$/library_SlidingMenu/library_SlidingMenu.iml" />
+    </modules>
+  </component>
+</project>
+
